@@ -72,7 +72,7 @@ def verify_chain():
             continue
         if block['previous_hash'] != hash_block(blockchain[index-1]):
             return False
-        return True
+    return True
 
 
 waiting_for_input = True
