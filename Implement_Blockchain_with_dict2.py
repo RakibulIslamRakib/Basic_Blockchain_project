@@ -81,6 +81,7 @@ while waiting_for_input:
     print("please enter your choice:")
     print("1: Add a new transaction value")
     print("2: Mine a new block")
+    print('3: Output the blockchain blocks')
     print("h: manipulate blockchain")
     print("q: quit")
 
